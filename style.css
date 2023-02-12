@@ -1,0 +1,222 @@
+.left, .right {
+    float: left;
+    width: 20%;
+  }
+  
+.main {
+    float: left;
+    width: 60%;
+  }
+  
+ 
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+  }
+
+
+body
+{
+    background-image: url("..//CodeTribe/Image/blue.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.for
+{
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+
+   
+}
+#submit
+{
+    color: red;
+    font-size: 25px;
+    background-color: grey;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+  
+}
+#text
+{
+    width: 300px ;
+
+}
+#mes{
+      width: 350px;  
+      height: 70px;
+      
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    
+}
+.github-link
+{
+    font-size: 20px; color: red;
+    margin: 16px;
+}
+.linkedin-link
+{
+    font-size: 20px; color: red;
+    margin: 16px;
+}
+#key
+{
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.info
+{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+
+}
+footer
+{
+    width:"450";
+     height:"250" ;
+     border:"20"; 
+     margin-right: auto;
+     margin-left: auto;
+    /*allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"*/
+}
+.center
+{
+    width: 500px;
+    height: 550px;
+    display: block;
+    border-radius: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.edu
+{
+    height: 50px;
+}
+.work
+{
+    height: 50px;
+}
+.paper
+{
+    height: 50px;
+}
+.skill
+{
+    height: 50px; 
+}
+#cert
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+#fav
+{
+    font-size: 30px;
+    font-style: normal;
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+}
+.quote
+{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+h2
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navi
+{
+    color: yellow;
+    margin-right: 50px; 
+    margin: top 16px; 
+    margin-bottom: 16px; 
+    margin-left: 50px;
+    
+}
+.head
+{
+    /*background-color: black;*/
+
+}
+.image
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+.about
+{
+    
+    font-size: 20px;
+    
+
+}
+.tertiary
+{
+    font-size: 20px;
+}
+.skills
+{
+    font-size: 20px;
+}
+.experience
+{
+    font-size: 20px;
+}
+.certificates
+{
+    font-size: 20px;
+}
+.image
+{
+    position: sticky;
+  
+}
+.map
+{
+   padding-bottom: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: right;
+   
+  
+}
+.map iframe
+{
+    height: 300px;
+    width: 600px;
+    position: relative;
+    border-radius: 55px;
+    
+    
+}
+.location
+{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 1, 1);
+    text-align: right;
+}
